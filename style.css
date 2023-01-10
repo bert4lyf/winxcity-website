@@ -66,22 +66,21 @@ ul li a:hover{
 }
 
 .search{
-    width: 150px;
-    float: right;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 330px;
+    float: left;
+    margin-left: 400px;
 }
 
 .srch{
    font-family: 'Times New Romans';
-   width: 190px;
-   height: 40px;
+   width: 200px;
+   height: 30px;
    background: transparent;
    border: 1px solid #ff7200;
-   margin-top: 13px;
-   color: rgb(255, 255, 255);
+   margin-top: 0px;
+   color: #fff;
    border-right: none;
-   font-size: 16px;
+   font-size: 13px;
    float: left;
    padding: 10px;
    border-bottom-left-radius: 5px;
@@ -90,7 +89,7 @@ ul li a:hover{
 
 .btn{
     width: 100px;
-    height: 40px;
+    height: 10px;
     background: Blue;
     border: 2px solid #ff7200;
     margin-top: 13px;
@@ -125,7 +124,7 @@ ul li a:hover{
 }
 
 .content h1{
-    font-family: 'san serif';
+    font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
@@ -156,16 +155,16 @@ ul li a:hover{
 }
 .content span{
     color: Blue;
-    font-size: 50px
+    font-size: 70px
 }
 
 .form{
-   width: 280px;
-   height: 350;
+   width: 290px;
+   height: 400px;
    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
    position: absolute;
-   top: -20px;
-   left: 870px;
+   top: 0px;
+   left: 860px;
    border-radius: 10px;
    padding: 25px;
 }
@@ -184,7 +183,7 @@ ul li a:hover{
 
 .form input{
     width: 240px;
-    height: 50px;
+    height: 35px;
     background: transparent;
     border-bottom: 1px solid #0051ff;
     border-top: none;
@@ -211,7 +210,7 @@ ul li a:hover{
    height: 40px;
    background: #ff7200;
    border: none;
-   margin-top: 10px;
+   margin-top: 20px;
    font-size: 18px;
    border-radius: 10px;
    cursor: pointer;
@@ -262,29 +261,30 @@ ul li a:hover{
 }
 
 .icon ion-icon:hover{
-   color: crimson;
+   color: #ff7200;
 }
 
-@media screen and (max-width:1200px) {
-    /*Normal screen*/
+
+    
+    @media screen and(max-width: 1200px) {
+    /*Normal Screen*/
 
     .navbar{
         width: 100%;
         height: 100px;
     }
     ul{
-      margin-left: 30px;
+        margin-left: 30px;
     }
     ul li{
         margin-left: 60px;
     }
-    ul li a{
+    il li a{
         font-size: 1.6vw;
     }
-
     .search{
-         margin-top: 3px;
-         margin-left: 290px;
+        margin-top: 3px;
+        margin-left: 290px;
     }
     .srch{
         height: 40px;
@@ -292,22 +292,19 @@ ul li a:hover{
         font-size: 14px;
     }
     .btn{
-       height: 40px;
-       weight: 80px;
+        height: 40px;
+        width: 80px;
     }
 
     .content{
         width: 100%;
     }
-    .content{
-        width: 100px;
-    }
     .content h1, .content span{
         font-size: 4.5vw;
     }
     .content .par{
-         width: 90%;
-         font-size: 1.5vw;
+        width: 90%;
+        font-size: 1.5vw;
     }
     .content .cn{
         width: 13%;
@@ -317,154 +314,137 @@ ul li a:hover{
     .content a{
         font-size: 1.6vw;
     }
-  }
 
-  @media screen and (max-width:1170px) {
-        /*login-box*/
+    @media screen and (max-width:1170px) {
+        /*Login-box*/
 
         .main{
-             padding-left: 20px;
-             height: 180vh;
+            padding-left: 20px;
+            height: 180vh;
         }
-   .form{
-   margin-left: -30px;
-   width: 280px;
-   height: 350;
-   background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
-   position: absolute;
-   top: 420px;
-   left: 50px;
-   border-radius: 10px;
-   padding: 25px;
- }
-  .form input{
-    width: 240px;
-    height: 35px;
-    background: transparent;
-    border-bottom: 1px solid #ff7200;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
-  }
-  .btn a{
-     font-size: 16px;
-  }
-  .form .link a{
-     font-size: 16px;
-   }
-  }
-
-  @media screen and (max-width:830px) {
-      /*Tablet*/
-      .content{
-          margin-top: 120px;
-          width: 80%;
-          margin-left: 40px;
-      }
-  }
-
-  @media and (max-width:500px) {
-      /*Phone*/
-      .content{
-         margin-top: 100px;
-    }
-    }
-    
-    @media  screen and (max-width:768px) {
-        .logo{
-            padding-left: 0;
-        }
-        .cart{
-            padding-right: 2em;
-        }
-        .menubar{
-            display: none;
-        }
-        .burger{
-            margin-left: 2em;
-            display: block;
-        }
-        .section1 .banner h1{
-            font-size: 1.5em;
-        }
-        .banner a{
-            font-size: 0.6em;
-            padding: 1em 2em;
-        }
-        .section2 .title h1{
-            font-size: 1.5em;
-        }
-        .menu-sidebar{
-            display: block;
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100vh;
-            z-index: 11;
-            background: #ececec;
-            overflow: hidden;
-            transform: translate(-100%);
-            transition: 0.3s linear;
-        }
-        .menu-menubar{
-            display: flex;
-            height: 100%;
-            justify-content: flex;
-        }
-        .menu-list{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-        }
-        .menu-sidebar .close-menu{
+        .form{
+            margin-left: -30px;
+            width: 290px;
+            height: 400px;
+            background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
             position: absolute;
-            right: 30px;
-            font-size: 1.4em;
+            top: 50px;
+            left: 860px;
+            border-radius: 10px;
+            padding: 25px;
+         }
+         .form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid #0051ff;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
         }
-        .menu-list-items a{
-            color: #f09d51;
+        .btnn a{
+            font-size: 16xp;
         }
-        .menu-list-items a:hover{
-            color: #f57b09;
-        }
-    }
-    
-    @media screen and(max-width: 480px) {
-        *{
+        .form .link a{
             font-size: 16px;
         }
-        .section1 .banner{
-            width: 280px;
-            height: 100px;
+    }
+
+    @media screen and (max-width:830px) {
+        /*Tablet*/
+        .content{
+            margin-top: 120px;
+            width: 80%;
+            margin-left: 40px;
         }
-    
-        .section1 .banner h1{
-            font-size: 1.2em;
+        .content h1, .content span{
+            font-size: 6vw;
         }
-        .burger{
-            margin-left: 1em;
-            display: block;
-            width: 30px;
+        .content .par{
+            width: 90%;
+            font-size: 1.8vw;
         }
-        .cart-sidebar{
+        .content .cn{
+            width: 15%;
+            height: 4.5vw;
+            font-size: 2vw;
+        }
+        .content a{
+            font-size: 2vw;
+        }
+        .logo{
+            margin-left: 240px;
+            width: 100%;
+            margin-top: 15px;
+            font-size: 5vw;
+        }
+        .menu{
             width: 100%;
         }
-        .product{
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+        ul{
+            margin-top: -5px;
+            margin-left: 5px;
         }
-        
+        ul li{
+            margin-left: 60px;
+        }
+        ul li a{
+            font-size: 2vw;
+        }
+        .search{
+            margin-top: -20px;
+            margin-left: 60px;
+        }
+        .srch{
+            height: 30px;
+            width: 160px;
+            font-size: 12px;
+        }
+        .btn{
+            height: 30px;
+            width: 70px;
+        }
+        .main{
+            padding-left: 20px;
+            height: 180vh;
+        }
+        .form{
+            margin-left: -30px;
+            width: 290px;
+            height: 400px;
+            background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+            position: absolute;
+            top: 50px;
+            left: 860px;
+            border-radius: 10px;
+            padding: 25px;
+         }
+         .form input{
+            width: 240px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid #0051ff;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+        .btnn a{
+            font-size: 16xp;
+        }
+        .form .link a{
+            font-size: 16px;
+        }
+    }
     } 
 
 * {
@@ -590,7 +570,7 @@ ul{
   flex-direction: column;
   width: 80%;
   margin: 20px auto;
-  over-flow: hidden;
+  overflow: hidden;
   border-radius: 10px;
 }
 /* End Projects Section */
